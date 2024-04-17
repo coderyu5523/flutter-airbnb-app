@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../components/home_body.dart';
 import '../components/home_header.dart';
 
 
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: [
           HomeHeader(),
-          // HomeBody(),
+          HomeBody(),
         ],
       ),
     );

@@ -10,11 +10,14 @@ class HomeBodyBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        BannerImage(),
-        BannerCaption() // BannerCaption()
-      ],
+    return Padding(
+      padding: const EdgeInsets.only(top: 20),
+      child: Stack(
+        children: [
+          BannerImage(),
+          BannerCaption() // BannerCaption()
+        ],
+      ),
     );
   }
 }
